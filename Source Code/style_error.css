@@ -1,0 +1,36 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.error-msg {
+ 	margin-top: -14px;
+ 	display: inline-block;
+ 	position: relative;
+}
+.error-img img{
+	margin-top: 4px;
+	padding: 40px;
+}
+
+.page_button{
+	padding-left: 18px;
+	padding-top: 10px;
+	position: absolute;
+	height: 32px;
+	width: 120px;
+	background-color: black;
+	border-radius: 20px;
+	margin-top: -20px;
+}
+.page_button:hover {
+	background-color: white;
+	color: black;
+}
+
+.page_button a:visited, a:link, a:active{
+	color: white;
+	text-decoration: none;
+}
+
+

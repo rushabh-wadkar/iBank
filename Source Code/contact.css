@@ -1,0 +1,34 @@
+.dev-image_contact a, a:link, a:visited, a:active{
+	text-decoration: none;
+	color: rgba(255,255,255, 0.7);
+}
+.dev-image_contact a:hover{
+	text-decoration: none;
+	color: rgba(255,255,255, 1);
+}
+
+.image-head-contact {
+	position: relative;
+	display: inline;
+	margin: 12px;
+	padding: 70px 20px 20px 28px;
+	border-radius: 55px;
+}
+.image-head-contact img{
+}
+.image-head-contact:hover{
+	background-color: rgba(255, 255,255, 1);
+}
+.image-head-contact img{
+	height: 60px;
+	z-index: -99;
+}
+.name {
+	position: absolute;
+	display: inline-block;
+	margin-top: 160px;
+	margin-left: -160px;
+	font-size: 18px;
+	z-index: 1999;
+	width: 160px;
+}

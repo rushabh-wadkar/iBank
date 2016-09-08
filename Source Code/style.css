@@ -1,0 +1,331 @@
+* {
+	font-family: Tahoma, Georgia, 'sans serif', arial;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+@font-face{
+	font-family: MonaShark;
+	src: url(./fonts/SaucerBB.ttf);
+}
+
+body {
+	background-image: url("./images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: -20% 52%;
+	background-attachment: fixed;
+}
+
+.header {
+	position: absolute;
+	height: 8em;
+	width: 100%;
+	background-color: rgba(0, 10, 26, 0.75);
+}
+.footer {
+	bottom: 0em;
+	position: absolute;
+	height: 4em;
+	width: 100%;
+	background-color: rgba(0, 10, 26, 0.8);
+	z-index: 2;
+	white-space: nowrap;
+}
+
+.footer_elements{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.footer_elements li{
+	margin-top: 12px;
+	display: inline-block;
+	list-style: none;
+	padding: 2px;
+	color: rgba(230,230,230,0.9);
+	font-family: Tahoma, arial;
+	font-size: 12px;
+	line-height: 22px;
+}
+.headerlogo{
+	position: absolute;
+	top: 1.5em;
+	left: 15em;
+}
+.headername {
+	-webkit-filter: brightness(105%);
+	font-family: MonaShark;
+	font-size: 60px;
+	position: absolute;
+	color: white;
+	letter-spacing: 2px;
+	top: 0.8em;
+	left: 5.4em;
+}
+.headerDesc {
+	color: white;
+	position: absolute;
+	font-size: 0.7em;
+	display: inline;
+	z-index: 1;
+	top: 9em;
+	left: 34em;
+}
+.headerlogo img:hover{
+	-webkit-filter: brightness(130%);
+}
+
+.hometab {
+	font-size: 17px;
+	position: absolute;
+	top: 3.5em;
+	left: 43em;
+	height: 1.7em;
+	width: 5em;
+	padding-top: 8px;
+	background-color: rgba(71,71,71,0.6);
+	color: white;
+	border-radius: 0px;
+	z-index: 1;
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+.hometab:hover {
+	background-color: #007fff;
+}
+
+.logintab {
+	font-size: 17px;
+	position: absolute;
+	top: 3.5em;
+	left: 48.5em;
+	height: 1.7em;
+	width: 5em;
+	padding-top: 8px;
+	background-color: rgba(71,71,71,0.6);
+	color: white;
+	border-radius: 0px;
+	z-index: 1;
+	font-weight: lighter;
+	text-align: center;
+}
+.logintab:hover {
+	background-color: #007fff;
+}
+.registertab {
+	font-size: 17px;
+	position: absolute;
+	top: 3.5em;
+	left: 54em;
+	height: 1.7em;
+	width: 5em;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background-color: rgba(71,71,71,0.6);
+	color: white;
+	border-radius: 0px;
+	z-index: 1;
+	font-weight: lighter;
+	text-align: center;
+}
+.registertab:hover {
+	background-color: #007fff;
+}
+
+
+
+.form_css {
+	top: 10em;
+	right: 5em;
+	height: 24em;
+	width: 29em;
+	border-radius: 0em 5em 0em 5em;
+	position: absolute;
+	background-color: rgba(0, 10, 26, 0.6);
+	z-index: 2;
+	box-shadow: 5px 5px 10px #000000;
+}
+.form_css img{
+	position: relative;
+	top: 2em;
+	height: 5em;
+	width: 5em;
+}
+.form_css img:hover{
+	-webkit-filter: brightness(120%);
+}
+.login_css {
+	position: relative;
+	top: 3.5em;
+	right: 1em;
+	left: 0em;
+	font-size: 1em;
+	color: white;
+	letter-spacing: 1px;
+}
+.user_id {
+	font-size: 1em;
+	border-radius: 0em 1em 0em 0em;
+	padding: 5px 1px 5px 8px;
+	outline: none;
+}
+.pass_id {
+	font-size: 1em;
+	border-radius: 0em 1em 0em 0em;
+	padding: 5px 1px 5px 8px;
+	outline: none;
+}
+.submit_id {
+	font-size: 17px;
+	padding: 10px 60px 8px 60px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+}
+.submit_id:hover {
+	background-color: #007fff;
+	color: white;
+}
+.register_desc{
+	position: fixed;
+	height: 20em;
+	top: 35%;
+	left: 5%;
+	right: 50%;
+	font-family: 'Open Sans';
+	text-align: center;
+	color: white;
+	text-shadow:4px 4px 4px #333333;
+}
+.desc_main{
+
+	font-size: 38px;
+}
+p{
+	font-size: 13px;
+}
+.register_css{
+	position: absolute;
+	height: 42em;
+	width: 37em;
+	top: 30%;
+	left: 50%;
+	right: 8%;
+	border-radius: 0em 5em 0em 5em;
+	background-color: rgba(0, 10, 26, 0.6);
+	z-index: 1;
+	margin-bottom: 3%;
+	padding-bottom: 3%;
+
+	box-shadow: 5px 5px 10px #000000;
+}
+.register_form_wrapper{
+	position: absolute;
+	height: 75%;
+	width: 80%;
+	top: 18%;
+	left: 10%;
+	right: 10%;
+	z-index: 6;
+	border-radius: 0em 5em 0em 5em;
+	padding-left: 25px;
+	color: white;
+}
+
+.input_css{
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	font-size: 30px;
+}
+
+
+.register_input {
+	font-family: Tahoma, arial;
+	font-size: 1em;
+	margin-top: 8px;
+	padding: 5px 1px 5px 8px;
+	outline: none;
+	border-radius: 1px;
+	box-shadow: 2px 2px 4px #333333;
+}
+
+
+.register_id {
+	margin-top: 3%;
+	margin-bottom: 5%;
+	font-size: 17px;
+	margin-left: 20%;
+	padding: 10px 60px 8px 60px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+	outline: none;
+}
+.register_id:hover{
+	background-color: #007fff;
+	color: white;
+}
+
+
+/*           ABOUT US CSS DROP DOWN MENU      */
+.about_tab {
+	font-size: 17px;
+	position: absolute;
+	top: 3.49em;
+	left: 60.4em;
+	height: 2.2em;
+	width: 5em;
+	color: white;
+	border-radius: 0px;
+	z-index: 10;
+	font-weight: lighter;
+	text-align: center;
+}
+.about_tab ul {
+	  list-style: none;
+	  padding: 0px;
+	  margin: 0px;
+}
+	 
+.about_tab  ul li {
+	  display: block;
+	  position: relative;
+	  float: left;
+	  background-color: rgba(71,71,71,0.6);
+	  padding: 8px;
+	  padding-left: 9px;
+	  padding-right: 18px; 
+	  }
+.about_tab  li ul {
+	  display: none;
+	  }
+ .about_tab ul li a {
+	  display: block;
+	  text-decoration: none;
+	  white-space: nowrap;
+	  color: white;
+	  text-align: center;
+	  }
+.about_tab li:hover {
+	background-color: #007fff;
+}
+ .about_tab li:hover ul {
+	  display: block;
+	  position: absolute;
+	  margin-top: 9px;
+	  }
+.about_tab li:hover li {
+	  float: none;
+	  margin-left: -2.5em;
+}
+#menu-nav li ul li {
+	  border-top: 14px;
+}
